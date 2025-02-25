@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/index.css" />
-        <title>JS starter</title>
-    </head>
-    <body>
-        <script src="./src/index.js"></script>
-    </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/svg+xml"
+href="./planning/cat.jpg" />
+<link rel="stylesheet" href="./css/index.css" />
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+/>
+<title>Daily Bread</title>
+</head>
+<body>
+<main>
+<section class="section-center">
+<form class="todos-form">
+<h3><span>My Daily-</span>Bread</h3>
+<div class="form-control">
+    <input
+        type="text"
+        id="todo-input"
+        placeholder="e.g. Buy beer"
+    />
+    <button type="submit" class="submit-btn">Submit</button>
+</div>
+<div class="error"></div>
+</form>
+<div class="todos-container">
+<div class="todos-list"></div>
+<button class="clear-btn">Clear Items</button>
+</div>
+</section>
+</main>
+<footer>
+<div><p>@ Design by Harley All right reserved</p></div>
+</footer>
+<script type="module" src="./src/index.js"></script>
+</body>
 </html>
